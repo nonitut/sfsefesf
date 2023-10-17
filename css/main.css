@@ -1,0 +1,157 @@
+.time{
+    color: #3a4df4;
+}
+/* Селектор по классу */
+.pinki{
+    font-size: 20px;
+}
+/* .pinki{
+    font-size: 20px;
+} */
+
+@font-face {
+    font-family: "Caveat-Bold";
+    src: url("../fonts/Caveat-Bold.ttf"), format("truetype");
+    font-style: bold;
+    font-weight: 700;
+}
+
+h1, p{
+    color: darkorange;
+    font-family: "futura";
+
+}
+
+h2{
+    font-size: larger;
+    text-transform: uppercase;
+}
+/* Селектор по типу элемента */
+
+#kamen{
+    background-color: yellow;
+}
+/* Селектор по идентификатору */
+
+/* ul li {
+    list-style-type: circle;
+} */
+/* Селектор потомков */
+
+/* nav > ul {
+    background-color: #333;
+    color: aliceblue;
+    border-radius: 20px;
+    width: 500px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+} */
+/* Селектор дочерних элементов */
+
+a{
+    color: chartreuse;
+    text-decoration: none;     /* убираем подчеркивание у ссылки */
+}
+
+a:hover {
+    /* text-decoration: underline; */
+    color: hotpink;
+}
+
+/* li:first-child {
+    font-weight: bold;
+    text-decoration: underline;
+} */
+
+h3 + p {
+    font-weight: bold;
+    color: lightblue;
+}
+
+
+
+.normalday{
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 200px;
+    padding: 10px;
+}
+
+.money{
+    width: 20%;
+    height: 30%;
+    background-color: deeppink;
+    text-align: center;
+    margin: 2%;
+    border-radius: 10px;
+    padding: 10px;
+    color: #f8eeff ;
+    font-weight: 900;
+}
+
+
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "PT Sans", sans-serif ;
+}
+
+a{
+    color: inherit;
+    
+}
+
+h1, h2 , h3 , p, ul, blockquote{
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+h1, h2, h3 {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: bold;
+}
+
+h1{
+     margin-top: 66px;
+     font-size: 38px;
+     line-height: 45px;
+}
+
+
+h1+p{
+    margin-top: 8px;
+    font-family: "PT Sans Caption", sans-serif ;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgb(0, 0, 0, .4);
+}
+
+h1+p+p{
+    margin-top: 6px;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "PT Sans Caption", sans-serif ;
+    color: rgb(0, 0, 0, .4);
+}
+
+h2{
+    margin-top: 43px;
+    font-size: 32px;
+    line-height: 36px;
+    color: rgb(0, 0, 0, .8);
+}
+
+blockquote{
+   font-style: italic;
+   font-weight: bolder;
+   margin-top: 10px;
+   font-size: 600px;
+}
+
+img{
+    display: block;
+    width: 900px;
+    margin: 80px auto 0;
+}
